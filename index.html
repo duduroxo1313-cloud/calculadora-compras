@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de compra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    
+ 
+       
+<h1>Bem-vindo ao Carrinho de Compra</h1>
+
+<h2 class="h2">
+<p>Selecione os produtos que deseja adicionar ao carrinho.</p>
+</h2>
+
+
+
+ <div class="carrossel">
+        <div class="imagens">
+            <img src="img/banana.jpg" alt="Imagem 1">
+            <img src="img/maca.jpg" alt="Imagem 2">
+            <img src="img/cereja.jpg" alt="Imagem 3">
+            <img src="img/morango.jpg" alt="Imagem 4">
+            <img src="img/banana.jpg" alt="Imagem 1 repetida">
+        </div>
+    </div>
+
+
+
+<br>
+
+
+<h4>Produtos Disponíveis</h4>
+
+<div class="Produtos">
+<div class="card">
+    <h3>Banana
+    <p>3,50</p>
+    </h3>
+    <button class="btn-add"
+        data-nome="Banana"
+        data-preco="3.50">
+        + Adicionar
+    </button>
+</div>
+
+
+<div class="card">
+    <h3>Maçã
+    <p>4,00</p>
+    </h3>
+    <button class="btn-add"
+        data-nome="Maçã"
+        data-preco="4.00">
+        + Adicionar
+    </button>
+</div>
+
+
+<div class="card">
+    <h3>Laranja
+    <p>2,50</p>
+    </h3>
+    <button class="btn-add"
+        data-nome="Laranja"
+        data-preco="2.50">
+        + Adicionar
+    </button>
+</div>
+
+
+
+<div class="card">
+    <h3>uva
+    <p>2,50</p>
+    </h3>
+    <button class="btn-add"
+        data-nome="Uva"
+        data-preco="2.50">
+        + Adicionar
+    </button>
+</div>
+
+    <div class="carrinho-box">
+<h3>Carrinho</h3>
+ <ul id="lista-carrinho">
+    </ul>
+<button id="btn-esvaziar">Esvaziar Carrinho</button>
+      <div class="total-box">
+      Total: R$ <span id="valor-total">0.00</span>
+    </div>
+</div>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
